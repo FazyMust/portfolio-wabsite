@@ -1,0 +1,83 @@
+//Font
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// Color
+$primary: #cc005f;
+$secondary: #990047;
+$dark: #000;
+$light: #f4f4f4;
+
+// buttons
+$button-radius: 0;
+$button-padding-x: 30px;
+$button-padding-y: 12px;
+
+$btn-border-radius: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+
+$btn-border-radius-sm: $button-radius;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-y-sm: $button-padding-y;
+
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y-lg: $button-padding-y;
+
+// Navbar
+$navbar-toggler-border-radius: 5px;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25, // 4px
+  2: $spacer * 0.5,  // 8px
+  3: $spacer,        // 16px
+  4: $spacer * 1.5,  // 24px
+  5: $spacer * 3,    // 48px
+  6: $spacer * 6,    // 96px
+  7: $spacer * 8,    // 128px
+  8: $spacer * 12,   // 192px
+) !default;
+
+// Default font sizes
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+  1: $h1-font-size,  // 40px
+  2: $h2-font-size,  // 32px
+  3: $h3-font-size,  // 28px
+  4: $h4-font-size,  // 24px
+  5: $h5-font-size,  // 20px
+  6: $h6-font-size   // 16px
+);
+
+// Display font sizes
+$display-font-sizes: (
+  1: 5rem,    // 80px
+  2: 4.5rem,  // 72px
+  3: 4rem,    // 64px
+  4: 3.5rem,  // 56px
+  5: 3rem,    // 48px
+  6: 2.5rem   // 40px
+);
+
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 980px,
+  xxl: 1000px
+) !default;
+
+
+
+@import "~bootstrap/scss/bootstrap";
