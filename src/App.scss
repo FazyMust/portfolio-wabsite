@@ -55,3 +55,60 @@
     }
   }
 }
+
+// Portfolio section
+.portfolio {
+  .project:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+  }
+}
+
+// Services section
+.services {
+  background: url('./assets/images/bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .container {
+    //services Content
+    z-index: 10;
+  }
+}
+
+// Stats section
+@media (max-width: 767px) {
+  .stats .stat {
+    border-right: 0 !important;
+    margin-bottom: 40px;
+    border-bottom: #333 solid 1px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 767.1px) and (max-width: 991.98px) {
+  .stats .col-md-4:nth-child(3n) .stat {
+    border-right: none !important;
+  }
+}
+
+// Contact From Section
+// ::placeholder {
+//   color: white;
+// }
+.contact {
+  ::placeholder {
+    color: #ccc;
+  }
+}
